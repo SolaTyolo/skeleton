@@ -3,10 +3,8 @@
 
 require __DIR__ . '/vendor/autoload.php';
 
-$commandLoader = require __DIR__ . '/../bootstrap/loader.php';
-
 use LegoCue\Framework\Application;
-use Commmands\Console;
+use Commands\Console;
 
 $app = new Application();
 

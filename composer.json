@@ -12,7 +12,7 @@
     "minimum-stability": "dev",
     "require": {
         "php": "^7.2",
-        "legocue/framework": "dev-master"
+        "legocue/framework": "^1.0.0"
     },
     "autoload": {
         "psr-4": {

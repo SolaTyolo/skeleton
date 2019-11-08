@@ -2,12 +2,12 @@
 
 namespace Commands;
 
-use Commands\HelloWorld;
+use Commands\HelloWorldCommand;
 use LegoCue\Framework\Kernel;
 
 class Console extends Kernel
 {
     protected $commands = [
-        HelloWorld::class,
+        HelloWorldCommand::class,
     ];
 }

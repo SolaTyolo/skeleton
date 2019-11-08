@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "ccc66916811de85a9cb11d4c593e3944",
+    "content-hash": "bd395cccd108e7d65f3de1cc6fec600b",
     "packages": [
         {
             "name": "legocue/framework",
-            "version": "dev-master",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SolaTyolo/framework.git",
-                "reference": "2bbc7a2f3ceafebe7332f04612d31956d9117ea3"
+                "reference": "381e8ae2f33324b96385a271dccfa41c120a6594"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SolaTyolo/framework/zipball/2bbc7a2f3ceafebe7332f04612d31956d9117ea3",
-                "reference": "2bbc7a2f3ceafebe7332f04612d31956d9117ea3",
+                "url": "https://api.github.com/repos/SolaTyolo/framework/zipball/381e8ae2f33324b96385a271dccfa41c120a6594",
+                "reference": "381e8ae2f33324b96385a271dccfa41c120a6594",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -47,7 +47,7 @@
                     "email": "solat.yolo@gmail.com"
                 }
             ],
-            "time": "2019-11-08T08:49:09+00:00"
+            "time": "2019-11-08T09:24:10+00:00"
         },
         {
             "name": "psr/container",
@@ -461,9 +461,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "legocue/framework": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
