@@ -1,0 +1,22 @@
+{
+    "name": "legocue/skeleton",
+    "description": "skeleton of legocue/framework , a basic applcation",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "SolaTyolo",
+            "email": "solat.yolo@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.2",
+        "legocue/framework": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Commands\\": "Commands/"
+        }
+    }
+}

@@ -1,0 +1,14 @@
+#!/usr/bin/env php
+<?php
+
+require __DIR__ . '/vendor/autoload.php';
+
+$commandLoader = require __DIR__ . '/../bootstrap/loader.php';
+
+use LegoCue\Framework\Application;
+use Commmands\Console;
+
+$app = new Application();
+
+$app->loadCommands( new Console() );
+$app->terminate();
