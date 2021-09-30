@@ -11,8 +11,8 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": "^7.3||^8.0",
-        "legocue/framework": "^1.1.0"
+        "php": "^7.1|^8.0",
+        "legocue/framework": "^1.1.1"
     },
     "autoload": {
         "psr-4": {
